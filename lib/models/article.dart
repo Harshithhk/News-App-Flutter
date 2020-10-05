@@ -1,17 +1,16 @@
-class ArticleModel {
-  String author;
-  String title;
-  String description;
-  String url;
-  String urlToImage;
-  String content;
+class Article{
 
-  ArticleModel({
-    this.title,
-    this.author,
-    this.content,
-    this.description,
-    this.url,
-    this.urlToImage,
-  });
+  String title;
+  String author;
+  String description;
+  String urlToImage;
+  DateTime publshedAt;
+  String content;
+  String articleUrl;
+
+  Article({this.title,this.description,this.author,this.content,this.publshedAt,
+    this.urlToImage, this.articleUrl});
+
+
+
 }
